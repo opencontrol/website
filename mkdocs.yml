@@ -1,0 +1,4 @@
+site_name: OpenControl
+repo_url: https://github.com/opencontrol/opencontrol.github.io/
+google_analytics: ['UA-69554101-1', 'opencontrol.github.io']
+remote_branch: master
