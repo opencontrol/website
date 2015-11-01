@@ -23,39 +23,19 @@ Every deployment includes updates to continuous monitoring.
 
 ## It's a schema.
 
-By adopting a standard approach to documenting "controls" (whether Technical, Operational, or Management) we can rapidly build a community of vendors and operators
+By adopting a standard approach to documenting "controls" (whether Technical, Operational, or Management) we can rapidly build a community of vendors and operators. You can see [the current (and evolving) OpenControl schema here.](schema)
 
 ## It's a set of tools and best practices.
 
 Right now we're excited about:
 
- * [Concourse.ci](http://concourse.ci) (see an example at https://dragon.somegood.org)
+ * [Concourse.ci](http://concourse.ci) (see an example at [https://dragon.somegood.org](https://dragon.somegood.org))
  * GitBook (see how the 18F have used this to produce the [System Security Plan for Cloud.Gov](https://masonry-gitbook.cloud.gov/index.html))
 
+There are more details about how to use this set of tools to [build a continuous authorization pipeline](pipelines.md).
 
 ## It's a community.
 
 Want to join? Simply [submit a pull request](https://github.com/opencontrol/opencontrol.github.io/compare) to this document and add yourself.
 
-The Vendors and Operators below have, unofficially and without any legally-binding commitment, endorsed the principles of Continuous Authorization, and have agreed to
-collaborate on the development of the OpenControl schema, tools and best practices.
-
-### OpenControl Vendor Members
-
-#### Pivotal, Inc.
-Pivotal Cloud Foundry
-https://github.com/cloudfoundry-community/compliance
-
-#### Amazon Web Services (via 18F)
-Amazon Web Services
-https://github.com/18F/control-masonry/tree/master/data/components/AWS
-
-### OpenControl Operator Members
-
-#### Pivotal, Inc.
-Pivotal Web Services
-https://run.pivotal.io/
-
-#### US Government GSA, 18F
-Cloud.gov
-https://cloud.gov/
+You can see the [full list of current members here.](members)
