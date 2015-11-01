@@ -13,7 +13,7 @@ What regulations can I use this for?
 > The principles behind OpenControl can be applied to any regulatory environment,
 or in fact any operational environment with running systems and software. Currently,
 the community repositories include FedRAMP low and moderate definitions using the
-NIST 800-53 certification, as well as a newly defined "LATO" authorization. 
+NIST 800-53 certification, as well as a newly defined "LATO" authorization.
 
 What about PCI?
 
@@ -43,6 +43,10 @@ Travis, Bamboo, Wercker, and more. OpenControl pipelines can be defined using
 any CI tool. We felt that the "dependency-injection" style of job and resource
 declaration in Concourse made it a good fit for the semantics of OpenControl.
 
+How do I get started using this??
+
+> We need to write a "getting started" tutorial. As a quick bootstrap, use the
+tutorial on the Concourse.ci website, and then checkout the example pipeline.
 
 ## Who?
 

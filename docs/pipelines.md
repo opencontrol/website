@@ -19,7 +19,8 @@ using a tool called ["Spruce"](https://blog.starkandwayne.com/2015/10/08/introdu
 Spruce merges yaml files from left to right, so the template for the system
 authorization will always be listed first. Files of each of the required schemas
 will come next, and finally an "override" file for system-specific controls
-will be merged last.
+will be merged last. (This file would also include any plan-specific metadata such
+  as Authorizing Official, SSP Author, etc.)
 
 Once a complete system-security-plan (SSP) YAML has been generated, it can be
 transformed into a variety of formats. For human-readable documentation, the YAML
@@ -27,4 +28,8 @@ should be converted to Markdown, and then passed into GitBook. GitBook can outpu
 HTML, PDF, or various ePUB formats.
 
 Producing configuration for your continuous monitoring tools can be generated directly
-from the SSP YAML, using various python libraries. 
+from the SSP YAML, using various python libraries.
+
+Of course, most existing certifications are not yet documented in YAML, but in XML.
+So we use [ComplianceLib from GovReady](https://github.com/govready/compliancelib-python)
+to transform these XML files into YAML.

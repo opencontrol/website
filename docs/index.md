@@ -1,4 +1,6 @@
-# OpenControl: What is it?
+# ![OpenControl Logo](img/oclogo.png)
+
+# A YAML-Powered Antidote To Bureaucracy #
 
 ## It's a powerfully simply idea.
 
@@ -36,6 +38,9 @@ There are more details about how to use this set of tools to [build a continuous
 
 ## It's a community.
 
-Want to join? Simply [submit a pull request](https://github.com/opencontrol/opencontrol.github.io/compare) to this document and add yourself.
+This community includes vendors that provide documentation of controls in a standard
+schema, government agencies and other regulators that document certifications in
+another schema, and operators who use the OpenControl process to authorize their
+systems.
 
 You can see the [full list of current members here.](members)
