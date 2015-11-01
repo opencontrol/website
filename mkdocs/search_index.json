@@ -1,0 +1,64 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "OpenControl: What is it?\n\n\nIt's a powerfully simply idea.\n\n\nTo improve the quality of our software development, we use continuous integration.\nTo improve the reliability of our deployment, we use continuous delivery.\nTo improve the security of our systems, we can use continuous authorization.\n\n\nSimply put, the tools that we use to develop and operate software, should also be\nused to generate and validate assessment and authorization packages.\n\n\nEvery commit runs the tests.\nEvery passing build, updates the system security plan.\nEvery deployment includes updates to continuous monitoring.\n\n\n\n\nSoftware as Code.\n\n\nTests as Code.\n\n\nInfrastructure as Code.\n\n\nCompliance as Code.\n\n\n\n\nIt's a schema.\n\n\nBy adopting a standard approach to documenting \"controls\" (whether Technical, Operational, or Management) we can rapidly build a community of vendors and operators\n\n\nIt's a set of tools and best practices.\n\n\nRight now we're excited about:\n\n\n\n\nConcourse.ci\n (see an example at https://dragon.somegood.org)\n\n\nGitBook (see how the 18F have used this to produce the \nSystem Security Plan for Cloud.Gov\n)\n\n\n\n\nIt's a community.\n\n\nWant to join? Simply \nsubmit a pull request\n to this document and add yourself.\n\n\nThe Vendors and Operators below have, unofficially and without any legally-binding commitment, endorsed the principles of Continuous Authorization, and have agreed to\ncollaborate on the development of the OpenControl schema, tools and best practices.\n\n\nOpenControl Vendor Members\n\n\nPivotal, Inc.\n\n\nPivotal Cloud Foundry\nhttps://github.com/cloudfoundry-community/compliance\n\n\nAmazon Web Services (via 18F)\n\n\nAmazon Web Services\nhttps://github.com/18F/control-masonry/tree/master/data/components/AWS\n\n\nOpenControl Operator Members\n\n\nPivotal, Inc.\n\n\nPivotal Web Services\nhttps://run.pivotal.io/\n\n\nUS Government GSA, 18F\n\n\nCloud.gov\nhttps://cloud.gov/", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#opencontrol-what-is-it", 
+            "text": "", 
+            "title": "OpenControl: What is it?"
+        }, 
+        {
+            "location": "/#its-a-powerfully-simply-idea", 
+            "text": "To improve the quality of our software development, we use continuous integration.\nTo improve the reliability of our deployment, we use continuous delivery.\nTo improve the security of our systems, we can use continuous authorization.  Simply put, the tools that we use to develop and operate software, should also be\nused to generate and validate assessment and authorization packages.  Every commit runs the tests.\nEvery passing build, updates the system security plan.\nEvery deployment includes updates to continuous monitoring.   Software as Code.  Tests as Code.  Infrastructure as Code.  Compliance as Code.", 
+            "title": "It's a powerfully simply idea."
+        }, 
+        {
+            "location": "/#its-a-schema", 
+            "text": "By adopting a standard approach to documenting \"controls\" (whether Technical, Operational, or Management) we can rapidly build a community of vendors and operators", 
+            "title": "It's a schema."
+        }, 
+        {
+            "location": "/#its-a-set-of-tools-and-best-practices", 
+            "text": "Right now we're excited about:   Concourse.ci  (see an example at https://dragon.somegood.org)  GitBook (see how the 18F have used this to produce the  System Security Plan for Cloud.Gov )", 
+            "title": "It's a set of tools and best practices."
+        }, 
+        {
+            "location": "/#its-a-community", 
+            "text": "Want to join? Simply  submit a pull request  to this document and add yourself.  The Vendors and Operators below have, unofficially and without any legally-binding commitment, endorsed the principles of Continuous Authorization, and have agreed to\ncollaborate on the development of the OpenControl schema, tools and best practices.  OpenControl Vendor Members  Pivotal, Inc.  Pivotal Cloud Foundry\nhttps://github.com/cloudfoundry-community/compliance  Amazon Web Services (via 18F)  Amazon Web Services\nhttps://github.com/18F/control-masonry/tree/master/data/components/AWS  OpenControl Operator Members  Pivotal, Inc.  Pivotal Web Services\nhttps://run.pivotal.io/  US Government GSA, 18F  Cloud.gov\nhttps://cloud.gov/", 
+            "title": "It's a community."
+        }, 
+        {
+            "location": "/pipelines/", 
+            "text": "https://raw.githubusercontent.com/opencontrol/opencontrol.github.io/master/images/OpenControl%20Architecture.png", 
+            "title": "Pipelines"
+        }, 
+        {
+            "location": "/schema/", 
+            "text": "OpenControl: Schema\n\n\nComponent Schema\n\n\nCertification Schema\n\n\nSystem Schema", 
+            "title": "Schema"
+        }, 
+        {
+            "location": "/schema/#opencontrol-schema", 
+            "text": "", 
+            "title": "OpenControl: Schema"
+        }, 
+        {
+            "location": "/schema/#component-schema", 
+            "text": "", 
+            "title": "Component Schema"
+        }, 
+        {
+            "location": "/schema/#certification-schema", 
+            "text": "", 
+            "title": "Certification Schema"
+        }, 
+        {
+            "location": "/schema/#system-schema", 
+            "text": "", 
+            "title": "System Schema"
+        }
+    ]
+}
