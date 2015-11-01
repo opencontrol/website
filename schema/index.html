@@ -64,19 +64,31 @@
                 
                 
                     <li >
-                        <a href="..">Home</a>
+                        <a href="..">Intro</a>
                     </li>
                 
                 
                 
                     <li >
-                        <a href="../pipelines/">Pipelines</a>
+                        <a href="../faq/">FAQ</a>
                     </li>
                 
                 
                 
                     <li class="active">
                         <a href="./">Schema</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../pipelines/">Pipeline</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../members/">Members</a>
                     </li>
                 
                 
@@ -91,12 +103,12 @@
                 </li>
                 
                     <li >
-                        <a rel="next" href="../pipelines/">
+                        <a rel="next" href="../faq/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
-                    <li class="disabled">
-                        <a rel="prev" >
+                    <li >
+                        <a rel="prev" href="../pipelines/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -123,9 +135,11 @@
     
         <li class="main active"><a href="#opencontrol-schema">OpenControl: Schema</a></li>
         
-            <li><a href="#component-schema">Component Schema</a></li>
+            <li><a href="#standards-schema">Standards Schema</a></li>
         
             <li><a href="#certification-schema">Certification Schema</a></li>
+        
+            <li><a href="#component-schema">Component Schema</a></li>
         
             <li><a href="#system-schema">System Schema</a></li>
         
@@ -135,9 +149,65 @@
                 <div class="col-md-9" role="main">
 
 <h1 id="opencontrol-schema">OpenControl: Schema</h1>
-<h2 id="component-schema">Component Schema</h2>
+<p>The OpenControl pipeline combines four types of yaml files:
+standards, certifications, components, and systems.</p>
+<h2 id="standards-schema">Standards Schema</h2>
+<p>Standards (such as NIST 800-53) provide a list of controls that can be
+referenced in a certification, and include descriptions that may or may not
+be included in the final documentation.</p>
+<pre><code class="yaml"># nist-800-53.yaml
+---
+standards:
+  C-2:
+    name: User Access
+    description: There is an affordance for managing access by...
+</code></pre>
+
+<p>You can find the <a href="https://github.com/opencontrol/standards/federal/nist-800-53.yaml">complete file on github.</a></p>
 <h2 id="certification-schema">Certification Schema</h2>
-<h2 id="system-schema">System Schema</h2></div>
+<p>Certifications (such as FedRAMP Low) provide the scaffolding for a system's
+authorization. They include a list of required controls.</p>
+<p>Here is a fragment of the FedRAMP certification YAML, showing the schema.</p>
+<pre><code class="yaml"># FedRAMP-low.yaml
+---
+standards:
+  nist-800-53:
+    C-2: ~
+    C-3: ~
+</code></pre>
+
+<p>You can find the <a href="https://github.com/opencontrol/certifications/federal/FedRAMP-low.yaml">complete file on github.</a></p>
+<h2 id="component-schema">Component Schema</h2>
+<p>Here is an example component schema:</p>
+<pre><code class="yaml"># CloudFoundry-UAA.yaml
+---
+name: User Account and Authentication (UAA) Server
+references:
+- name: User Account and Authentication (UAA) Server
+  url: http://docs.pivotal.io/pivotalcf/concepts/architecture/uaa.html
+governors:
+- name: Cloud Foundry Roles
+  url: https://cf-p1-docs-prod.cfapps.io/pivotalcf/concepts/roles.html
+satisfies:
+  NIST-800-53:
+    AC-2: Cloud Foundry accounts are managed through the User Account and Authentication (UAA) Server.
+</code></pre>
+
+<p>You can find the <a href="https://github.com/cloudfoundry-community/opencontrol/component/CloudFoundry-UAA.yaml">complete file on github.</a></p>
+<h2 id="system-schema">System Schema</h2>
+<p>The System YAML file is the only OpenControl schema that is explicitly defined as
+a spruce template. It combines the Standards, Certifications, and Components to
+produce a complete System Security Plan.</p>
+<p>This example is for an installation of Pivotal Cloud Foundry running on top of
+Amazon Web Services, and includes a number of controls satisfied thru additional
+software components (aka compensating controls).</p>
+<pre><code># pcf-on-aws-fedramp.yaml
+---
+
+
+</code></pre>
+
+<p>You can find the <a href="https://github.com/opencontrol/example-pipelines/pcf-on-aws-fedramp.yaml">complete file on github.</a></p></div>
             
         </div>
 

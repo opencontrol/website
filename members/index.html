@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../img/favicon.ico">
 
-	<title>Pipeline - OpenControl</title>
+	<title>Members - OpenControl</title>
 
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -81,14 +81,14 @@
                 
                 
                 
-                    <li class="active">
-                        <a href="./">Pipeline</a>
+                    <li >
+                        <a href="../pipelines/">Pipeline</a>
                     </li>
                 
                 
                 
-                    <li >
-                        <a href="../members/">Members</a>
+                    <li class="active">
+                        <a href="./">Members</a>
                     </li>
                 
                 
@@ -103,12 +103,12 @@
                 </li>
                 
                     <li >
-                        <a rel="next" href="../schema/">
+                        <a rel="next" href="../pipelines/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
-                    <li >
-                        <a rel="prev" href="../members/">
+                    <li class="disabled">
+                        <a rel="prev" >
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -133,41 +133,45 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#opencontrol-pipelines">OpenControl Pipelines</a></li>
+        <li class="main active"><a href="#opencontrol-members">OpenControl Members</a></li>
         
-            <li><a href="#key-tools">Key Tools</a></li>
+            <li><a href="#vendor-members">Vendor Members</a></li>
+        
+            <li><a href="#operator-members">Operator Members</a></li>
+        
+            <li><a href="#regulatory-members">Regulatory Members</a></li>
         
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="opencontrol-pipelines">OpenControl Pipelines</h1>
-<p>Continuous Authorization pipelines can be constructed using the
-open source <a href="https://Concourse.ci">Concourse.ci</a> tool.
-There is a running example of this at <a href="https://dragon.somegood.org">https://dragon.somegood.org</a>.
-<img alt="OpenControl Pipeline Screenshot" src="../img/screenshot.png" /></p>
-<p>The <a href="https://github.com/opencontrol/example-pipelines">example pipeline is available on github.</a></p>
-<p>The notional architecture of the OpenControl pipeline is below.
-<img alt="Pipeline Architecture" src="../img/OpenControl%20Architecture.png" /></p>
-<h2 id="key-tools">Key Tools</h2>
-<p>OpenControl systems, components and authorizations are defined using YAML. So
-much of the pipeline is simply merging of various YAML files. This is performed
-using a tool called <a href="https://blog.starkandwayne.com/2015/10/08/introducing-spruce-a-more-intuitive-spiff">"Spruce"</a>.</p>
-<p>Spruce merges yaml files from left to right, so the template for the system
-authorization will always be listed first. Files of each of the required schemas
-will come next, and finally an "override" file for system-specific controls
-will be merged last. (This file would also include any plan-specific metadata such
-  as Authorizing Official, SSP Author, etc.)</p>
-<p>Once a complete system-security-plan (SSP) YAML has been generated, it can be
-transformed into a variety of formats. For human-readable documentation, the YAML
-should be converted to Markdown, and then passed into GitBook. GitBook can output
-HTML, PDF, or various ePUB formats.</p>
-<p>Producing configuration for your continuous monitoring tools can be generated directly
-from the SSP YAML, using various python libraries.</p>
-<p>Of course, most existing certifications are not yet documented in YAML, but in XML.
-So we use <a href="https://github.com/govready/compliancelib-python">ComplianceLib from GovReady</a>
-to transform these XML files into YAML.</p></div>
+<h1 id="opencontrol-members">OpenControl Members</h1>
+<p>The Vendors and Operators below have, unofficially and without any legally-binding commitment,
+endorsed the principles of Continuous Authorization, and have agreed to
+collaborate on the development of the OpenControl schema, tools and best practices.</p>
+<h2 id="vendor-members">Vendor Members</h2>
+<hr />
+<h3 id="pivotal-inc">Pivotal, Inc.</h3>
+<h4 id="product-pivotal-cloud-foundry">Product: <strong>Pivotal Cloud Foundry</strong></h4>
+<h4 id="opencontrol-repo-httpsgithubcomcloudfoundry-communitycompliance">OpenControl Repo: <a href="https://github.com/cloudfoundry-community/compliance">https://github.com/cloudfoundry-community/compliance</a></h4>
+<h3 id="amazon-web-services-via-18f">Amazon Web Services (via 18F)</h3>
+<h4 id="product-amazon-web-services">Product: <strong>Amazon Web Services</strong></h4>
+<h4 id="opencontrol-repo-httpsgithubcom18fcontrol-masonrytreemasterdatacomponentsaws">OpenControl Repo: <a href="https://github.com/18F/control-masonry/tree/master/data/components/AWS">https://github.com/18F/control-masonry/tree/master/data/components/AWS</a></h4>
+<h2 id="operator-members">Operator Members</h2>
+<hr />
+<h3 id="pivotal-inc_1">Pivotal, Inc.</h3>
+<h4 id="product-pivotal-web-services">Product: <strong>Pivotal Web Services</strong></h4>
+<h4 id="httpsrunpivotalio"><a href="https://run.pivotal.io/">https://run.pivotal.io/</a></h4>
+<h3 id="us-government-gsa-18f">US Government GSA, 18F</h3>
+<h4 id="product-cloudgov">Product: <strong>Cloud.gov</strong></h4>
+<h4 id="httpscloudgov"><a href="https://cloud.gov/">https://cloud.gov/</a></h4>
+<h2 id="regulatory-members">Regulatory Members</h2>
+<hr />
+<h3 id="us-government-nist-via-18f">US Government NIST (via 18F)</h3>
+<h4 id="product-nist-800-53">Product: <strong>NIST 800-53</strong></h4>
+<hr />
+<p>Want to join? Simply <a href="https://github.com/opencontrol/opencontrol.github.io/compare">submit a pull request</a> to this document and add yourself.</p></div>
             
         </div>
 

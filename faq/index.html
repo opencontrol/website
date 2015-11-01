@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../img/favicon.ico">
 
-	<title>Pipeline - OpenControl</title>
+	<title>FAQ - OpenControl</title>
 
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -69,8 +69,8 @@
                 
                 
                 
-                    <li >
-                        <a href="../faq/">FAQ</a>
+                    <li class="active">
+                        <a href="./">FAQ</a>
                     </li>
                 
                 
@@ -81,8 +81,8 @@
                 
                 
                 
-                    <li class="active">
-                        <a href="./">Pipeline</a>
+                    <li >
+                        <a href="../pipelines/">Pipeline</a>
                     </li>
                 
                 
@@ -103,12 +103,12 @@
                 </li>
                 
                     <li >
-                        <a rel="next" href="../schema/">
+                        <a rel="next" href="..">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../members/">
+                        <a rel="prev" href="../schema/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -133,41 +133,68 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#opencontrol-pipelines">OpenControl Pipelines</a></li>
+        <li class="main active"><a href="#opencontrol-questions">OpenControl: Questions</a></li>
         
-            <li><a href="#key-tools">Key Tools</a></li>
+            <li><a href="#what">What?</a></li>
+        
+            <li><a href="#why">Why?</a></li>
+        
+            <li><a href="#how">How?</a></li>
+        
+            <li><a href="#who">Who?</a></li>
         
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="opencontrol-pipelines">OpenControl Pipelines</h1>
-<p>Continuous Authorization pipelines can be constructed using the
-open source <a href="https://Concourse.ci">Concourse.ci</a> tool.
-There is a running example of this at <a href="https://dragon.somegood.org">https://dragon.somegood.org</a>.
-<img alt="OpenControl Pipeline Screenshot" src="../img/screenshot.png" /></p>
-<p>The <a href="https://github.com/opencontrol/example-pipelines">example pipeline is available on github.</a></p>
-<p>The notional architecture of the OpenControl pipeline is below.
-<img alt="Pipeline Architecture" src="../img/OpenControl%20Architecture.png" /></p>
-<h2 id="key-tools">Key Tools</h2>
-<p>OpenControl systems, components and authorizations are defined using YAML. So
-much of the pipeline is simply merging of various YAML files. This is performed
-using a tool called <a href="https://blog.starkandwayne.com/2015/10/08/introducing-spruce-a-more-intuitive-spiff">"Spruce"</a>.</p>
-<p>Spruce merges yaml files from left to right, so the template for the system
-authorization will always be listed first. Files of each of the required schemas
-will come next, and finally an "override" file for system-specific controls
-will be merged last. (This file would also include any plan-specific metadata such
-  as Authorizing Official, SSP Author, etc.)</p>
-<p>Once a complete system-security-plan (SSP) YAML has been generated, it can be
-transformed into a variety of formats. For human-readable documentation, the YAML
-should be converted to Markdown, and then passed into GitBook. GitBook can output
-HTML, PDF, or various ePUB formats.</p>
-<p>Producing configuration for your continuous monitoring tools can be generated directly
-from the SSP YAML, using various python libraries.</p>
-<p>Of course, most existing certifications are not yet documented in YAML, but in XML.
-So we use <a href="https://github.com/govready/compliancelib-python">ComplianceLib from GovReady</a>
-to transform these XML files into YAML.</p></div>
+<h1 id="opencontrol-questions">OpenControl: Questions</h1>
+<h2 id="what">What?</h2>
+<p>What license is this under?</p>
+<blockquote>
+<p>The code portions are all licensed under Apache 2.0, except what has been contributed
+directly by the US Government, which is in the public domain. All written content
+has been licensed as Creative Commons Zero.</p>
+</blockquote>
+<p>What regulations can I use this for?</p>
+<blockquote>
+<p>The principles behind OpenControl can be applied to any regulatory environment,
+or in fact any operational environment with running systems and software. Currently,
+the community repositories include FedRAMP low and moderate definitions using the
+NIST 800-53 certification, as well as a newly defined "LATO" authorization.</p>
+</blockquote>
+<p>What about PCI?</p>
+<p>What about SOX?</p>
+<p>What about HIPAA?</p>
+<p>What about ICD-503?</p>
+<p>What about FedRAMP?</p>
+<h2 id="why">Why?</h2>
+<p>Why would I want this?</p>
+<h2 id="how">How?</h2>
+<p>Why didn't you use XSLT?</p>
+<p>Why didn't you use OpenSCAP?</p>
+<p>Why did you use Concourse?</p>
+<blockquote>
+<p>There are a lot of great continuous integration tools out there, including Jenkins,
+Travis, Bamboo, Wercker, and more. OpenControl pipelines can be defined using
+any CI tool. We felt that the "dependency-injection" style of job and resource
+declaration in Concourse made it a good fit for the semantics of OpenControl.</p>
+</blockquote>
+<p>How do I get started using this??</p>
+<blockquote>
+<p>We need to write a "getting started" tutorial. As a quick bootstrap, use the
+tutorial on the Concourse.ci website, and then checkout the example pipeline.</p>
+</blockquote>
+<h2 id="who">Who?</h2>
+<p>Who came up with this mess?</p>
+<blockquote>
+<p>The ideas of continuous authorization have been around for a long time. The term
+'OpenControl' was coined by Joshua McKenty, and first used in <a href="https://slideshare.net/joshuamckenty/opencontrol">a keynote presentation
+at All Things Open 2015</a> in Raleigh, North Carolina.
+The presentation includes some history, and explicit thanks to key originators at
+both 18F and Pivotal, as well as the creators of Cloud Audit. Special thanks goes
+to Diego Lapiduz and Noah Kunin.</p>
+</blockquote></div>
             
         </div>
 
