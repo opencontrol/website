@@ -1,5 +1,9 @@
 # OpenControl: Questions
 
+
+<script async class="speakerdeck-embed" data-id="1b3d6494fb12408dbe8f1cfe65eca769" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+
+
 ## What?
 
 What license is this under?
