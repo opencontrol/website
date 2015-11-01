@@ -54,7 +54,7 @@ Who came up with this mess?
 
 > The ideas of continuous authorization have been around for a long time. The term
 'OpenControl' was coined by Joshua McKenty, and first used in [a keynote presentation
-at All Things Open 2015](https://slideshare.net/joshuamckenty/opencontrol) in Raleigh, North Carolina.
+at All Things Open 2015](https://speakerdeck.com/joshuamckenty/all-things-open-opencontrol) in Raleigh, North Carolina.
 The presentation includes some history, and explicit thanks to key originators at
 both 18F and Pivotal, as well as the creators of Cloud Audit. Special thanks goes
 to Diego Lapiduz and Noah Kunin.
