@@ -9,13 +9,13 @@ jobs:
   - task: rebuild-mkdocs
     config:
       platform: linux
-      image: "docker:///nate/mkdocs"
+      image: "docker:///metal3d/mkdocs"
       inputs:
         - name: git-opencontrol-website
-          path: /mkdocs
+          path: .
       run:
-        path: /run.sh
-      #   args: ["build"]
+        path: mkdocs
+        args: ["build"]
   - put: opencontrol-website
     params:
       manifest: rebuild-mkdocs/manifest.yml
@@ -31,7 +31,7 @@ resources:
   type: cf
   source:
     api: https://api.run.pivotal.io
-    username: josh@beanpatch.org
+    username: josh@beanpatch.net
     password: {{PWS_PASSWORD}}
     organization: beanpatch
     space: opencontrol
