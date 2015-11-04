@@ -16,6 +16,12 @@ ___
 #### Product: __Amazon Web Services__
 #### OpenControl Repo: [https://github.com/18F/cg-controls/tree/master/components/AWS](https://github.com/18F/cg-controls/tree/master/components/AWS)
 
+## Consultancy Service Members
+___
+
+### Codethink
+#### [https://www.codethink.co.uk](https://www.codethink.co.uk)
+
 ## Operator Members
 ___
 
