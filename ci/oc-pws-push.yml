@@ -6,10 +6,20 @@ jobs:
   plan:
   - get: git-opencontrol-website
     trigger: true
+  - task: rebuild-mkdocs
+    config:
+      platform: linux
+      image: "docker:///nate/mkdocs"
+      inputs:
+        - name: git-opencontrol-website
+          path: /mkdocs
+      run:
+        path: /run.sh
+      #   args: ["build"]
   - put: opencontrol-website
     params:
-      manifest: opencontrol-website/manifest.yml
-      path: opencontrol-website/site
+      manifest: rebuild-mkdocs/manifest.yml
+      path: rebuild-mkdocs/site
 
 resources:
 - name: git-opencontrol-website
