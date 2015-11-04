@@ -25,7 +25,7 @@ resources:
 - name: git-opencontrol-website
   type: git
   source:
-    uri: https://github.com/opencontrol/opencontrol.github.io.git
+    uri: https://github.com/opencontrol/opencontrol-website.git
 
 - name: opencontrol-website
   type: cf
