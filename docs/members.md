@@ -14,7 +14,7 @@ ___
 
 ### Amazon Web Services (via 18F)
 #### Product: __Amazon Web Services__
-#### OpenControl Repo: [https://github.com/18F/control-masonry/tree/master/data/components/AWS](https://github.com/18F/control-masonry/tree/master/data/components/AWS)
+#### OpenControl Repo: [https://github.com/18F/cg-controls/tree/master/components/AWS](https://github.com/18F/cg-controls/tree/master/components/AWS)
 
 ## Operator Members
 ___
@@ -32,7 +32,7 @@ ___
 
 ### US Government NIST (via 18F)
 #### Product: __NIST 800-53__
-
+#### OpenControl Repo: [https://github.com/18F/cg-controls/blob/master/standards/NIST-800-53.yaml](https://github.com/18F/cg-controls/blob/master/standards/NIST-800-53.yaml)
 
 ___
 Want to join? Simply [submit a pull request](https://github.com/opencontrol/opencontrol.github.io/compare) to this document and add yourself.
