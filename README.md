@@ -1,6 +1,6 @@
 # OpenControl: A YAML-Powered Antidote to Bureaucracy
 
-## It's a powerfully simply idea.
+## It's a powerfully simple idea.
 
 To improve the quality of our software development, we use continuous integration.
 To improve the reliability of our deployment, we use continuous delivery.
