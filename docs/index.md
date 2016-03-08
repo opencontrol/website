@@ -32,7 +32,7 @@ By adopting a standard approach to documenting "controls" (whether Technical, Op
 Right now we're excited about:
 
  * [Concourse.ci](http://concourse.ci) (see an example at [https://dragon.somegood.org](https://dragon.somegood.org))
- * GitBook (see how the 18F have used this to produce the [System Security Plan for Cloud.Gov](https://masonry-gitbook.cloud.gov/index.html))
+ * GitBook (see how 18F has used this to produce the [System Security Plan for Cloud.Gov](https://compliance.cloud.gov))
 
 There are more details about how to use this set of tools to [build a continuous authorization pipeline](pipelines.md).
 
