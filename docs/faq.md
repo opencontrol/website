@@ -15,7 +15,7 @@ What regulations can I use this for?
 > The principles behind OpenControl can be applied to any regulatory environment,
 or in fact any operational environment with running systems and software. Currently,
 the community repositories include FedRAMP Low and Moderate definitions using the
-NIST 800-53 certification, as well as a newly defined [Lightweight Authority to Operate](https://gsablogs.gsa.gov/innovation/2014/12/10/it-security-security-in-an-agile-development-cloud-world-by-kurt-garbars/) (LATO) NIST 800-53 baseline from the [General Services Administration](http://gsa.gov (GSA)).
+NIST 800-53 certification, as well as a newly defined [Lightweight Authority to Operate](https://gsablogs.gsa.gov/innovation/2014/12/10/it-security-security-in-an-agile-development-cloud-world-by-kurt-garbars/) (LATO) NIST 800-53 baseline from the [General Services Administration](http://gsa.gov) (GSA).
 
 What about PCI?
 
