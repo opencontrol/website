@@ -5,6 +5,5 @@ remote_branch: master
 pages:
   - Intro: 'index.md'
   - FAQ: 'faq.md'
-  - Schema: 'schema.md'
   - Pipeline: 'pipelines.md'
   - Members: 'members.md'
