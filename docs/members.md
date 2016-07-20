@@ -10,11 +10,11 @@ ___
 
 ### Pivotal, Inc.
 #### Product: __Pivotal Cloud Foundry__
-#### OpenControl Repo: [https://github.com/cloudfoundry-community/compliance](https://github.com/cloudfoundry-community/compliance)
+#### OpenControl Repo: [https://github.com/opencontrol/cf-compliance](https://github.com/opencontrol/cf-compliance)
 
 ### Amazon Web Services (via 18F)
 #### Product: __Amazon Web Services__
-#### OpenControl Repo: [https://github.com/18F/cg-controls/tree/master/components/AWS](https://github.com/18F/cg-controls/tree/master/components/AWS)
+#### OpenControl Repo: [https://github.com/opencontrol/aws-compliance](https://github.com/opencontrol/aws-compliance)
 
 ### GovReady BPC
 #### Product: __GovReady Toolkit__
@@ -55,7 +55,7 @@ ___
 
 ### US Government NIST (via 18F)
 #### Product: __NIST 800-53__
-#### OpenControl Repo: [https://github.com/18F/cg-controls/blob/master/standards/NIST-800-53.yaml](https://github.com/18F/cg-controls/blob/master/standards/NIST-800-53.yaml)
+#### OpenControl Repo: [https://github.com/opencontrol/NIST-800-53-Standards](https://github.com/opencontrol/NIST-800-53-Standards)
 
 ___
 Want to join? Simply [submit a pull request](https://github.com/opencontrol/opencontrol.github.io/compare) to this document and add yourself.

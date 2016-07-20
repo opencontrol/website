@@ -25,14 +25,14 @@ Every deployment includes updates to continuous monitoring.
 
 ## It's a schema.
 
-By adopting a standard approach to documenting "controls" (whether Technical, Operational, or Management) we can rapidly build a community of vendors and operators. You can see [the current (and evolving) OpenControl schema here.](schema)
+By adopting a standard approach to documenting "controls" (whether Technical, Operational, or Management) we can rapidly build a community of vendors and operators. You can see [the current (and evolving) OpenControl schema here](https://github.com/opencontrol/schemas).
 
 ## It's a set of tools and best practices.
 
 Right now we're excited about:
 
- * [Concourse.ci](http://concourse.ci) (see an example at [https://dragon.somegood.org](https://dragon.somegood.org))
- * GitBook (see how 18F has used this to produce the [System Security Plan for Cloud.Gov](https://compliance.cloud.gov))
+ * [Concourse CI](http://concourse.ci)
+ * [GitBook](https://www.gitbook.com/) (see how 18F has used this to produce the [System Security Plan for cloud.gov](https://compliance.cloud.gov))
 
 There are more details about how to use this set of tools to [build a continuous authorization pipeline](pipelines.md).
 
