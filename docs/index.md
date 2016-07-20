@@ -44,3 +44,9 @@ another schema, and operators who use the OpenControl process to authorize their
 systems.
 
 You can see the [full list of current members here.](members)
+
+## Background
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hb3gonG2oFA" frameborder="0" allowfullscreen></iframe>
+
+[slides](https://speakerdeck.com/joshuamckenty/all-things-open-opencontrol)
