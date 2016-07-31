@@ -50,3 +50,5 @@ You can see the [full list of current members here.](members)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hb3gonG2oFA" frameborder="0" allowfullscreen></iframe>
 
 [slides](https://speakerdeck.com/joshuamckenty/all-things-open-opencontrol)
+
+<script>(function(t,e,s,n){var o,c,i;t.SMCX=t.SMCX||[],e.getElementById(n)||(o=e.getElementsByTagName(s),c=o[o.length-1],i=e.createElement(s),i.type="text/javascript",i.async=!0,i.id=n,i.src=["https:"===location.protocol?"https://":"http://","widget.surveymonkey.com/collect/website/js/buKyZ9s1TiQ6L39239qqd0mw3OfgfulqJfjmQgmZIjJvxhyPW5RvtAS094QgBX_2Fb.js"].join(""),c.parentNode.insertBefore(i,c))})(window,document,"script","smcx-sdk");</script>
