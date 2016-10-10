@@ -1,5 +1,9 @@
 # ![OpenControl Logo](img/oclogo.png)
 
+# OpenControl Virtual Symposium Oct 20, 2016 #
+
+[Attend the first OpenControl Live Event](event2016.md)
+
 # A YAML-Powered Antidote To Bureaucracy #
 
 ## It's a powerfully simple idea.
@@ -36,12 +40,16 @@ Right now we're excited about:
 
 There are more details about how to use this set of tools to [build a continuous authorization pipeline](pipelines.md).
 
+More [GitHub.com/opencontrol](https://github.com/opencontrol)
+
 ## It's a community.
 
 This community includes vendors that provide documentation of controls in a standard
 schema, government agencies and other regulators that document certifications in
 another schema, and operators who use the OpenControl process to authorize their
 systems.
+
+Invite yourself to [OpenControl slack](https://opencontrol-slack-inviter.herokuapp.com) or join our [announcements mailing list](http://eepurl.com/cg0ZE1).
 
 You can see the [full list of current members here.](members)
 

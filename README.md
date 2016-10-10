@@ -21,7 +21,7 @@ Every deployment includes updates to continuous monitoring.
 
 > __Compliance as Code.__
 
-The full website is online at [http://opencontrol.xyz](http://opencontrol.xyz).
+The full website is online at [http://open-control.org](http://open-control.org) and [http://opencontrol.xyz](http://opencontrol.xyz)
 
 ## Development
 
