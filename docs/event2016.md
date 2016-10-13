@@ -1,19 +1,25 @@
 # OpenControl Virtual Symposium
 ## Oct 20, 2016  - 10:00 AM to 6:00 PM Eastern Time
+
 ### [Register Today](https://zoom.us/meeting/register/395a70acf379371a66858a512be5123a)
+
+[![OpenControl Event Brochure Flyer](img/opencontrol_symposium_flyer_sm.png)](img/opencontrol_symposium_flyer.pdf)
 
 # Why Attend
 ___
 
-**Be a part of the first gathering explictly focused on the automatic generation of assessment and authorization packages**
+### An event focused on automating assessment and authorization packages
 
-**See OpenControl and Compliance-Masonry in action!  Learn how to get started**
+### See [OpenControl](https://github.com/opencontrol) and [Compliance-Masonry](https://github.com/opencontrol/compliance-masonry) in action!  Learn how to start! 
 
-** Meet like minded professions who believe in both innovation and security**
+### Meet like-minded professions who believe in both innovation and security
 
-**Align security assessments and authorization with modern, continuous software development and delivery**
+### Align security assessments and authorization with modern, CI/CD pipelines
 
-**Set the next priorities for development of OpenControl**
+### Set priorities for OpenControl's evolution
+
+### [Register Today](https://zoom.us/meeting/register/395a70acf379371a66858a512be5123a)
+
 
 # Agenda
 ___
