@@ -2,4 +2,4 @@
 applications:
 - name: opencontrol
   memory: 64M
-  path: site
+  # path: site

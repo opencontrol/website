@@ -12,14 +12,19 @@ jobs:
       image: "docker:///metal3d/mkdocs"
       inputs:
         - name: git-opencontrol-website
-          path: .
+          path: git-opencontrol-website
+      outputs:
+        - name: built-docs
       run:
-        path: mkdocs
-        args: ["build"]
+        path: sh
+        args:
+          - -exc
+          - "pushd git-opencontrol-website/; mkdocs build -d ../built-docs --clean; popd"
+
   - put: opencontrol-website
     params:
-      manifest: rebuild-mkdocs/manifest.yml
-      path: rebuild-mkdocs/site
+      manifest: git-opencontrol-website/manifest.yml
+      path: built-docs
 
 resources:
 - name: git-opencontrol-website

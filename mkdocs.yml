@@ -8,3 +8,4 @@ pages:
   - Pipeline: 'pipelines.md'
   - Members: 'members.md'
   - Event: 'event2016.md'
+docs_dir: "docs"

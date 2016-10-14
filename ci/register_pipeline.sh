@@ -1,1 +1,1 @@
-fly --target dragon configure --vars-from credentials.yml --config oc-pws-push.yml opencontrol-website
+fly -t dragon set-pipeline --load-vars-from credentials.yml -c oc-pws-push.yml -p opencontrol-website
