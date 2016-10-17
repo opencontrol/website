@@ -70,4 +70,4 @@ For those in DC, we will be heading to Third Thursdays, a regular happy hour for
 
 ## [Register Today](https://zoom.us/meeting/register/395a70acf379371a66858a512be5123a)
 
-(and [join the announcement mailing list](http://eepurl.com/cg0ZE1), too!)
+( and [join the announcement mailing list](http://eepurl.com/cg0ZE1), too! )
