@@ -2,10 +2,10 @@
 
 <div style="border: 2px solid red; padding: 4px; text-align: center;">
 	<h1>
-		<a href="event2016" style="color: red;">OpenControl Virtual Symposium<br />Oct 20, 2016 10:00 AM - 6:00 PM EST</a>
+		<a href="event2016/" style="color: red;">OpenControl Virtual Symposium<br />Oct 20, 2016 10:00 AM - 6:00 PM EST</a>
 	</h1>
 	<h2>
-		<a href="event2016" style="color: black;">Attend the first OpenControl Live Event</a>
+		<a href="event2016/" style="color: black;">Attend the first OpenControl Live Event</a>
 	</h2>
 </div>
 
