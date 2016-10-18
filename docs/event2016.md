@@ -1,28 +1,40 @@
 # OpenControl Virtual Symposium
-## Oct 20, 2016  - 10:00 AM to 6:00 PM Eastern Time
+## October 20, 2016, 10 am – 6 pm (Eastern Time)
+
+<a href="../img/opencontrol_symposium_flyer.pdf"><img style="float: right; margin-left: 15px;" src="../img/opencontrol_symposium_flyer_sm.png" alt="OpenControl Event Brochure Flyer" /></a>
 
 ### [Register Today](https://zoom.us/meeting/register/395a70acf379371a66858a512be5123a)
 
-[![OpenControl Event Brochure Flyer](img/opencontrol_symposium_flyer_sm.png)](img/opencontrol_symposium_flyer.pdf)
+The OpenControl Symposium will center around understanding
+the OpenControl framework for automating compliance assessment and authorization packages. In close
+collaboration with 18F (a federal government team), GovReady, and
+other industry partners, this virtual symposium will bring together
+thought leaders to introduce the idea of automated compliance
+and to show the developments taking place within
+the open-source community under the OpenControl project.
 
-# Why Attend
-___
+### You're Invited
 
-### An event focused on automating assessment and authorization packages
+We invite all **technologists**, **government staff**, **contractors**, **security experts**, **compliance experts**, and
+others in related regulated fields who are interested in learning
+about aligning security assessments and authorization with
+modern, continuous software development and delivery practices.
 
-### See [OpenControl](https://github.com/opencontrol) and [Compliance-Masonry](https://github.com/opencontrol/compliance-masonry) in action!  Learn how to start!
+### Where
 
-### Meet like-minded professions who believe in both innovation and security
+This is a free online video-conference event. [Register today!](https://zoom.us/meeting/register/395a70acf379371a66858a512be5123a) You'll receive logistical details by email after registering.
 
-### Align security assessments and authorization with modern, CI/CD pipelines
+## Why Attend
 
-### Set priorities for OpenControl's evolution
+* See [OpenControl](https://github.com/opencontrol) and [Compliance Masonry](https://github.com/opencontrol/compliance-masonry) in action, and learn how to start using them.
 
-### [Register Today](https://zoom.us/meeting/register/395a70acf379371a66858a512be5123a)
+* Meet like-minded professionals who believe in both innovation and security.
 
+* Align security assessments and authorization with modern CI/CD (Continuous Integration / Continuous Deployment) pipelines.
+
+* Help set priorities for OpenControl's evolution.
 
 # Agenda
-___
 
 The entire day of events will be virtual via [Zoom.us](https://zoom.us/meeting/register/395a70acf379371a66858a512be5123a) to grow our community. All times are in Eastern Time.
 
@@ -70,4 +82,4 @@ For those in DC, we will be heading to Third Thursdays, a regular happy hour for
 
 ## [Register Today](https://zoom.us/meeting/register/395a70acf379371a66858a512be5123a)
 
-( and [join the announcement mailing list](http://eepurl.com/cg0ZE1), too! )
+(And [join the announcement mailing list](http://eepurl.com/cg0ZE1) too!)
