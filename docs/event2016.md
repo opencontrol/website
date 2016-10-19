@@ -36,7 +36,7 @@ This is a free online video-conference event. [Register today!](https://zoom.us/
 
 # Agenda
 
-The entire day of events will be virtual via [Zoom.us](https://zoom.us/meeting/register/395a70acf379371a66858a512be5123a) to grow our community. All times are in Eastern Time.
+The entire day of events will be virtual via [Zoom.us](https://zoom.us/meeting/register/395a70acf379371a66858a512be5123a) to grow our community. All times are in Eastern Time. All of the morning sessions will be recorded and posted here following the event, and the notes from the afternoon sessions will remain available.
 
 ### Welcome
 10:00 AM - 10:05 AM (Greg Elin, GovReady)
@@ -45,9 +45,13 @@ The entire day of events will be virtual via [Zoom.us](https://zoom.us/meeting/r
 10:05 AM - 10:15 AM
 
 ### Keynote - A Better Way to Do Compliance
-**Invite your bosses to this keynote!**
 
-10:15 AM - 10:35 AM (Josh McKenty, Pivotal)
+**Invite your bosses to this part!**
+
+10:15 AM - 10:30 AM (Josh McKenty, Pivotal)
+
+### The Importance of OpenControl
+10:30 AM - 10:35 AM (Dominic Delmolino, Accenture Federal)
 
 ### Quickstart
 10:35 AM - 10:50 AM
@@ -59,6 +63,8 @@ The entire day of events will be virtual via [Zoom.us](https://zoom.us/meeting/r
 11:15 AM - 11:35 AM
 
 ### OpenSession Planning
+See [the planning doc](https://docs.google.com/document/d/1DVadZKF2SERPULteyc_jEXvjq65oFYbF-JRZd-zY090/edit#).
+
 11:35 AM - 12:00 PM
 
 ### Lunch
