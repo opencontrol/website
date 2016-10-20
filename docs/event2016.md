@@ -13,16 +13,16 @@ thought leaders to introduce the idea of automated compliance
 and to show the developments taking place within
 the open-source community under the OpenControl project.
 
-### You're Invited
+## You're Invited
 
 We invite all **technologists**, **government staff**, **contractors**, **security experts**, **compliance experts**, and
 others in related regulated fields who are interested in learning
 about aligning security assessments and authorization with
 modern, continuous software development and delivery practices.
 
-### Where
+## Where
 
-This is a free online video-conference event. [Register today!](https://zoom.us/meeting/register/395a70acf379371a66858a512be5123a) You'll receive logistical details by email after registering.
+This is a free online video-conference event. [Register today!](https://zoom.us/meeting/register/395a70acf379371a66858a512be5123a) You'll receive logistical details by email after registering. If you haven't seen an invite to the OpenControl Slack, request an invite [here](https://opencontrol-slack-inviter.herokuapp.com/). For any technical difficulties, reach out on Slack, or [send an email to aidan.feldman@gsa.gov, gregelin@govready.com, and mattcupp@govready.com](mailto:aidan.feldman@gsa.gov,gregelin@govready.com,mattcupp@govready.com).
 
 ## Why Attend
 
@@ -52,11 +52,11 @@ The entire day of events will be virtual via [Zoom.us](https://zoom.us/meeting/r
 
 10:15 AM - 10:30 AM (Josh McKenty, Pivotal)
 
-### The Importance of OpenControl
+### Compliance as Code: Opportunity and Promise
 10:30 AM - 10:35 AM (Dominic Delmolino, Accenture Federal)
 
-### OpenControl Demo & Quickstart
-10:35 AM - 10:50 AM (Aiden Feldman, 18F; James C Scott, 18F)
+### [OpenControl Demo & Quickstart](https://speakerdeck.com/aidanfeldman/compliance-masonry-quickstart)
+10:35 AM - 10:50 AM (Aidan Feldman and James C Scott, 18F)
 
 ### Prioritization Breakouts
 10:50 AM - 11:15 AM
