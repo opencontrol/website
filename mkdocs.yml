@@ -4,8 +4,6 @@ google_analytics: ['UA-69554101-1', 'opencontrol.github.io']
 remote_branch: master
 pages:
   - Intro: 'index.md'
-  - FAQ: 'faq.md'
-  - Pipeline: 'pipelines.md'
   - Members: 'members.md'
   - Event: 'event2016.md'
 docs_dir: "docs"
