@@ -30,10 +30,8 @@ By adopting a standard approach to documenting "controls" (whether Technical, Op
 
 Right now we're excited about:
 
+ * [Compliance Masonry](https://github.com/opencontrol/compliance-masonry)
  * [Concourse CI](http://concourse.ci)
- * [GitBook](https://www.gitbook.com/) (see how 18F has used this to produce the [System Security Plan for cloud.gov](https://compliance.cloud.gov))
-
-There are more details about how to use this set of tools to [build a continuous authorization pipeline](pipelines.md).
 
 More [GitHub.com/opencontrol](https://github.com/opencontrol)
 
