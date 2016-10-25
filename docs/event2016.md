@@ -44,8 +44,8 @@ The entire day of events will be virtual via to grow our community. All times ar
 
 ### Keynote - A Better Way to Do Compliance
 10:15 AM - 10:30 AM (Josh McKenty, Pivotal)
-<iframe src="https://player.vimeo.com/video/188776778" width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/188776778">Keynote - A Better Way to Do Compliance - OpenControl Virtual Symposium Oct 20, 2016</a> from <a href="https://vimeo.com/user55895176">Greg Elin</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<iframe src="https://player.vimeo.com/video/188819758" width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/188819758">Keynote - A Better Way to Do Compliance - OpenControl Virtual Symposium Oct 20, 2016</a> from <a href="https://vimeo.com/user55895176">Greg Elin</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 ### Compliance as Code: Opportunity and Promise
 10:30 AM - 10:35 AM (Dominic Delmolino, Accenture Federal)
