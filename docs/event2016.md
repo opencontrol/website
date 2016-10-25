@@ -3,7 +3,6 @@
 
 <a href="../img/opencontrol_symposium_flyer.pdf"><img style="float: right; margin-left: 15px;" src="../img/opencontrol_symposium_flyer_sm.png" alt="OpenControl Event Brochure Flyer" /></a>
 
-### [Register Today](https://zoom.us/meeting/register/395a70acf379371a66858a512be5123a)
 
 The OpenControl Symposium will center around understanding
 the OpenControl framework for automating compliance assessment and authorization packages. In close
@@ -22,7 +21,7 @@ modern, continuous software development and delivery practices.
 
 ## Where
 
-This is a free online video-conference event. [Register today!](https://zoom.us/meeting/register/395a70acf379371a66858a512be5123a) You'll receive logistical details by email after registering. If you haven't seen an invite to the OpenControl Slack, request an invite [here](https://opencontrol-slack-inviter.herokuapp.com/). For any technical difficulties, reach out on Slack, or [send an email to aidan.feldman@gsa.gov, gregelin@govready.com, and mattcupp@govready.com](mailto:aidan.feldman@gsa.gov,gregelin@govready.com,mattcupp@govready.com).
+This is a free online video-conference event.
 
 ## Why Attend
 
@@ -36,21 +35,17 @@ This is a free online video-conference event. [Register today!](https://zoom.us/
 
 # Agenda
 
-The entire day of events will be virtual via [Zoom.us](https://zoom.us/meeting/register/395a70acf379371a66858a512be5123a) to grow our community. All times are in Eastern Time. All of the morning sessions will be recorded and posted here following the event, and the notes from the afternoon sessions will remain available.
+The entire day of events will be virtual via to grow our community. All times are in Eastern Time. All of the morning sessions will be recorded and posted here following the event, and the notes from the afternoon sessions will remain available.
 
-[Test video connection](https://zoom.us/test)
-
-### Welcome
-10:00 AM - 10:05 AM (Greg Elin, GovReady)
-
-### Logistics for Day
-10:05 AM - 10:15 AM (Greg Elin, GovReady)
+### Welcome & Logistics for Day
+10:00 AM - 10:15 AM (Greg Elin, GovReady)
+<iframe src="https://player.vimeo.com/video/188768145" width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/188768145">Welcome &amp; Logistics - OpenControl Virtual Symposium Oct 20, 2016</a> from <a href="https://vimeo.com/user55895176">Greg Elin</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 ### Keynote - A Better Way to Do Compliance
-
-**Invite your bosses to this part!**
-
 10:15 AM - 10:30 AM (Josh McKenty, Pivotal)
+<iframe src="https://player.vimeo.com/video/188776778" width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/188776778">Keynote - A Better Way to Do Compliance - OpenControl Virtual Symposium Oct 20, 2016</a> from <a href="https://vimeo.com/user55895176">Greg Elin</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 ### Compliance as Code: Opportunity and Promise
 10:30 AM - 10:35 AM (Dominic Delmolino, Accenture Federal)
