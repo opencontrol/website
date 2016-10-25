@@ -49,6 +49,8 @@ The entire day of events will be virtual via to grow our community. All times ar
 
 ### Compliance as Code: Opportunity and Promise
 10:30 AM - 10:35 AM (Dominic Delmolino, Accenture Federal)
+<iframe src="https://player.vimeo.com/video/188840624" width="560" height="315" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/188840624">Compliance as Code: Opportunity and Promise - OpenControl Virtual Symposium Oct 20, 2016</a> from <a href="https://vimeo.com/user55895176">Greg Elin</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 ### [OpenControl Demo & Quickstart](https://speakerdeck.com/aidanfeldman/compliance-masonry-quickstart)
 10:35 AM - 10:50 AM (Aidan Feldman and James C Scott, 18F)
