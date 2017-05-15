@@ -30,7 +30,7 @@ Enterprise Containers-as-a-Service (CaaS) platform for developers and IT operati
 #### OpenControl Repo: [https://github.com/docker/ddc-opencontrol](https://github.com/docker/ddc-opencontrol)
 
 ### Red Hat Public Sector
-#### Product: ))OpenShift Container Platform (OCP)__
+#### Product: __OpenShift Container Platform (OCP)__
 OpenShift is a container application platform that brings [docker](https://www.redhat.com/en/containers/what-is-docker) and [Kubernetes](https://www.redhat.com/en/containers/what-is-kubernetes) to the enterprise.
 #### OpenControl Repo: [https://github.com/opencontrol/RedHat](https://github.com/opencontrol/RedHat)
 
