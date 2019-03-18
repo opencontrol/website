@@ -36,6 +36,8 @@ Authorization, and have agreed to collaborate on the development of the OpenCont
 
 
 {: .usa-table-borderless}
-| Name / GitHub  | Contact |
+| Name / GitHub  | Employer (optional) | Contact |
 |-------|--------------|---------|
-| Shawn Wells ([@shawndwells](https://github.com/shawndwells/)) | Blog: [medium.com/shawndwells](https://medium.com/shawndwells)<br/>EMail: [shawn@redhat.com](mailto:shawn@redhat.com)<br/>LinkedIn: [shawndwells](https://www.linkedin.com/in/shawndwells/) |
+| Aidan Feldman ([@afeld](https://github.com/afeld)) | U.S. Census Bureau, former 18F | Twitter: [@aidanfeldman](https://twitter.com/aidanfeldman) |
+| Gabe Alford ([@redhatrises](https://github.com/redhatrises)) | Red Hat | [LinkedIn](https://www.linkedin.com/in/gabriel-alford-5a5014a9/) |
+| Shawn Wells ([@shawndwells](https://github.com/shawndwells/)) | Red Hat | Blog: [medium.com/shawndwells](https://medium.com/shawndwells)<br/>EMail: [shawn@redhat.com](mailto:shawn@redhat.com)<br/>LinkedIn: [shawndwells](https://www.linkedin.com/in/shawndwells/) |

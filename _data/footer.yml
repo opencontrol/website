@@ -16,7 +16,7 @@ top:
 # Customize with 'text' property.
 # Uncomment the following line to show.
 edit_page:
-  text: Edit this page
+  text: Edit this page on GitHub
 
 # Configuration for "Last updated" date and time.
 # Uncomment the following line to show.
@@ -32,14 +32,13 @@ links: footer
 big_footer_signup_form: false
 
 # Configuration for footer heading. (optional)
-heading: OpenControl
+heading: 
 
 # Configuration for agency logo(s) (shown side by side).
 # If the logo is external add external: true
-logos:
-  - src: https://18f.gsa.gov/assets/img/logos/18f-logo.svg
-    alt: 18F
-    external: true
+#logos:
+#  - src: /assets/img/oclogo.png
+#    alt: OpenControl Logo
 
 # Configuration for footer contact links
 contact:
