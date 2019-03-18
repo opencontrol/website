@@ -1,4 +1,5 @@
 *.gem
+CNAME
 *.DS_store
 node_modules/
 
