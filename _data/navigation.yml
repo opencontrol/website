@@ -12,59 +12,62 @@
 #   links: primary
 #
 primary:
-  - text: Documentation
-    href: /docs/
-  - text: Navigation section
+  - text: Home
+    href: /
+  - text: Community
+    href: /community/
+  - text: Presentations
     links:
-      - text: Demo link A
-        href: /two/a/
-      - text: Demo link B
-        href: /two/b/
-      - text: Demo link C
-        href: /two/c/
-      - text: Demo link D
-        href: /two/a/
-      - text: Demo link E
-        href: /two/b/
-      - text: Demo link F
-        href: /two/c/
-  - text: Referenced section
-    links: footer
-  - text: External link
-    href: https://18f.gsa.gov
-    external: true
+      - text: Conferences and Videos
+        href: /presentations/#conferences-and-videos
+      - text: Press/Blogs/Articles
+        href: /presentations/#press-/-blogs-/-articles
+      - text: References
+        href: /presentations/#references
+  - text: Project's GitHub
+    href: https://github.com/opencontrol
+    external: true        
+#  - text: Referenced section
+#    links: footer
+  #- text: External link
+  #  href: https://18f.gsa.gov
+  #  external: true
 
 secondary:
-  - text: Documentation
-    href: /docs/
-  - text: Theme
-    href: /theme/
+  - text: Home
+    href: /
+#  - text: Theme
+#    href: /theme/
 
-docs:
-  - text: Sidenav Documentation
-    href: /docs/
-  - text: Sidenav Navigation section
-    links:
-      - text: Demo link A
-        href: /two/a/
-      - text: Demo link B
-        href: /two/b/
-      - text: Demo link C
-        href: /two/c/
-  - text: Sidenav Referenced section
-    links: footer
-  - text: Sidenav External link
-    href: https://18f.gsa.gov
-    external: true
+presentations:
+  - text: Conferences and Videos
+    href: /presentations/#conferences-and-videos
+  - text: Press/Blogs/Articles
+    href: /presentations/#press-/-blogs-/-articles
+  - text: References
+    href: /presentations/#references
 
-footer:
-  - text: Documentation
-    href: /docs/
-  - text: Demo link
-    href: /demo/
-  - text: External link
-    href: https://18f.gsa.gov
-    external: true
+#    links:
+#      - text: Demo link A
+#        href: /two/a/
+#      - text: Demo link B
+#        href: /two/b/
+#      - text: Demo link C
+#        href: /two/c/
+#  - text: Sidenav Referenced section
+#    links: footer
+#  - text: Sidenav External link
+#    href: https://18f.gsa.gov
+#    external: true
+
+#footer:
+#  - text: Documentation
+#    href: /docs/
+#  - text: Demo link
+#    href: /demo/
+#  - text: External link
+#    href: https://18f.gsa.gov
+#    external: true
 # Uncomment the items below and comment the items above in the `footer` list
 # to use footer link columns in the 'big' footer style.
   # - text: Documentation
@@ -75,7 +78,7 @@ footer:
   #       href: /docs/two/
   #     - text: Tertiary docs
   #       href: /docs/three/
-  # - text: Navigation section
+  # - text: NavZigation section
   #   links:
   #     - text: Demo link A
   #       href: /two/a/

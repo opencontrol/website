@@ -1,11 +1,11 @@
-title: This is the site title
-description: This is the site description.
+title: OpenControl
+description: OpenControl
 
 # GitHub information
 # This is used for adding an edit this page link to the footer
 github:
-  organization: 18F
-  repository: uswds-jekyll
+  organization: opencontrol
+  repository: opencontrol-website
   default_branch: master
 
 # Configuration for setting the site width to 100%
