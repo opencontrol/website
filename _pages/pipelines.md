@@ -1,3 +1,6 @@
+---
+---
+
 # OpenControl Pipelines
 
 Continuous Authorization pipelines can be constructed using the

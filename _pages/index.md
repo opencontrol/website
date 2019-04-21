@@ -1,3 +1,7 @@
+---
+permalink: /
+---
+
 # ![OpenControl Logo](img/oclogo.png)
 
 ## Compliance Professionals: Start with Tools

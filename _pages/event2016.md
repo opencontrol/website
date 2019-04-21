@@ -1,3 +1,6 @@
+---
+---
+
 # OpenControl Virtual Symposium
 ## October 20, 2016, 10 am – 6 pm (Eastern Time)
 

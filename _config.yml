@@ -1,1 +1,5 @@
-theme: jekyll-theme-cayman
+remote_theme: 18F/uswds-jekyll
+collections:
+  pages:
+    output: true
+    permalink: /:name/
