@@ -1,5 +1,11 @@
+title: OpenControl
 remote_theme: 18F/uswds-jekyll
 collections:
   pages:
     output: true
     permalink: /:name/
+defaults:
+  - scope:
+      path: "_pages"
+    values:
+      layout: "default"
