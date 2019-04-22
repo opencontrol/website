@@ -1,2 +1,4 @@
+_site/
 site/
 ci/credentials.yml
+Gemfile.lock

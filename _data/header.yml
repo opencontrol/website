@@ -1,0 +1,6 @@
+type: extended
+logo:
+  src: img/logo.png
+  alt: OpenControl
+primary:
+  links: primary

@@ -1,0 +1,12 @@
+primary:
+  - text: Home
+    href: /
+  - text: Philosophy
+    href: /philosophy/
+  - text: Members
+    href: /members/
+  - text: Event
+    href: /event2016/
+  - text: GitHub
+    href: https://github.com/opencontrol/opencontrol-website
+    external: true

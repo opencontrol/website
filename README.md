@@ -1,3 +1,3 @@
 # OpenControl web site
 
-This site is generated using [mkdocs](http://www.mkdocs.org/). See [the live site](http://open-control.org/).
+This site is generated using [Jekyll](https://jekyllrb.com) with the [USWDS theme](https://github.com/18F/uswds-jekyll).

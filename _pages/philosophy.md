@@ -1,4 +1,6 @@
-# ![OpenControl Logo](img/oclogo.png)
+---
+---
+
 # A YAML-Powered Antidote To Bureaucracy #
 
 ## It's a powerfully simple idea.

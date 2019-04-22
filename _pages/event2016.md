@@ -1,4 +1,7 @@
-# OpenControl Virtual Symposium
+---
+title: Virtual Symposium
+---
+
 ## October 20, 2016, 10 am – 6 pm (Eastern Time)
 
 <a href="../img/opencontrol_symposium_flyer.pdf"><img style="float: right; margin-left: 15px;" src="../img/opencontrol_symposium_flyer_sm.png" alt="OpenControl Event Brochure Flyer" /></a>
