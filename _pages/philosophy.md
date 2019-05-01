@@ -33,7 +33,7 @@ By adopting a standard approach to documenting "controls" (whether Technical, Op
 Right now we're excited about:
 
  * [Compliance Masonry](https://github.com/opencontrol/compliance-masonry)
- * [Concourse CI](http://concourse.ci)
+ * [Concourse CI](https://concourse-ci.org/)
 
 More [GitHub.com/opencontrol](https://github.com/opencontrol)
 
