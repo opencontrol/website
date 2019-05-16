@@ -25,7 +25,7 @@ graphics:
     title: Get Involved
     description: |
       * Join the community discussion at [discuss@open-control.org](mailto:discuss+subscribe@open-control.org)
-      * [Join our slack community](https://opencontrol-slack-inviter.herokuapp.com)
+      * [Join our slack community](https://join.slack.com/t/opencontrol/shared_invite/enQtNjM3NDY3NzQ3NjIwLTk2YTc0MmUwMjEyMmMxOTBhZTYwY2JhNDdiOTMwMDUzNjEyZGFlMGNjMDM3M2IyNjkyNzc0YmUxNGMzZWJhNWI)
       * Subscribe to our email list <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us14.list-manage.com","uuid":"982021c73dfac209529eb63bc","lid":"cff1dbefff"}) })</script>
   - image:
       src: /assets/uswds/img/circle-124.png

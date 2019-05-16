@@ -1,7 +1,7 @@
 ---
 ---
 
-# A YAML-Powered Antidote To Bureaucracy #
+# A YAML-Powered Antidote To Bureaucracy
 
 ## It's a powerfully simple idea.
 
@@ -32,8 +32,8 @@ By adopting a standard approach to documenting "controls" (whether Technical, Op
 
 Right now we're excited about:
 
- * [Compliance Masonry](https://github.com/opencontrol/compliance-masonry)
- * [Concourse CI](https://concourse-ci.org/)
+- [Compliance Masonry](https://github.com/opencontrol/compliance-masonry)
+- [Concourse CI](https://concourse-ci.org/)
 
 More [GitHub.com/opencontrol](https://github.com/opencontrol)
 
@@ -44,7 +44,7 @@ schema, government agencies and other regulators that document certifications in
 another schema, and operators who use the OpenControl process to authorize their
 systems.
 
-Invite yourself to [OpenControl slack](https://opencontrol-slack-inviter.herokuapp.com) or join our [announcements mailing list](http://eepurl.com/cg0ZE1).
+Invite yourself to [OpenControl slack](https://join.slack.com/t/opencontrol/shared_invite/enQtNjM3NDY3NzQ3NjIwLTk2YTc0MmUwMjEyMmMxOTBhZTYwY2JhNDdiOTMwMDUzNjEyZGFlMGNjMDM3M2IyNjkyNzc0YmUxNGMzZWJhNWI) or join our [announcements mailing list](http://eepurl.com/cg0ZE1).
 
 You can see the [full list of current members here.](members)
 
