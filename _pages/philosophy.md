@@ -46,7 +46,7 @@ systems.
 
 Invite yourself to [OpenControl slack](https://join.slack.com/t/opencontrol/shared_invite/enQtNjM3NDY3NzQ3NjIwLTk2YTc0MmUwMjEyMmMxOTBhZTYwY2JhNDdiOTMwMDUzNjEyZGFlMGNjMDM3M2IyNjkyNzc0YmUxNGMzZWJhNWI) or join our [announcements mailing list](http://eepurl.com/cg0ZE1).
 
-You can see the [full list of current members here.](members)
+You can see the [full list of current members here.](/members)
 
 ## Background
 
