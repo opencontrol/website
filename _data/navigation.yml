@@ -7,6 +7,8 @@ primary:
     href: /members/
   - text: Event
     href: /event2016/
+  - text: Code of Conduct
+    href: /code-of-conduct/
   - text: GitHub
     href: https://github.com/opencontrol/opencontrol-website
     external: true
