@@ -72,3 +72,22 @@ I understand that each site will have its differences, but there is likely to be
 
 >Components will likely correspond to components of your software stack, such as the underlying infrastructure, the web framework, the database, etc. We recommend organizing this way, rather than by component family.
 Therefore, the mapping exists from those components to each of the relevant controls, rather than the other way around. That being said, given a list of components, you could certainly produce the reverse. For example, the Amazon S3 component takes care of controls X, Y, and Z. You could also potentially make components that correspond to certain general types of applications, such as a static site or a traditional three-tier architecture. Perhaps in your cases, these could get even more specific.
+
+Only a few (<20) controls are specified in the AWS opencontrols git:
+https://github.com/opencontrol/aws-compliance
+
+For FedRAMP-high we need all 421 controls implemented per the FedRAMP spreadsheet:
+https://www.fedramp.gov/assets/resources/documents/FedRAMP_Security_Controls_Baseline.xlsx
+
+Is it possible to write a script to auto-populate the AWS opencontrol files with the appropriate controls from the FedRAMP-high spreadsheet?
+
+>A couple of clarifications:
+
+> - The FedRAMP baselines would be represented as an [OpenControl Certification](https://github.com/opencontrol/schemas#certifications).
+> - The AWS implementations of those controls would be represented as a set of [OpenControl Components](https://github.com/opencontrol/schemas#components), as seen in [that repository](https://github.com/opencontrol/aws-compliance).
+
+> There used to be a repository for the former, but it was deleted since it wasn't being maintained. I think it would be relatively straightforward to write a script to create OpenControl Certification YAML files from the spreadsheet you linked above. See also: using them from OSCAL.
+
+> - [FedRAMP baselines in OSCAL](https://github.com/usnistgov/OSCAL/tree/master/content/fedramp.gov)
+> - [Using OSCAL with Compliance Masonry](https://github.com/opencontrol/compliance-masonry/issues/343)
+> - Re: AWS control implementations, see [opencontrol/aws-compliance#5](https://github.com/opencontrol/aws-compliance/issues/5).
