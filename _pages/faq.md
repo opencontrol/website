@@ -1,7 +1,7 @@
 ---
 ---
 
-# OpenControl: Questions
+# OpenControl: High Level Questions
 
 ## What?
 
@@ -22,21 +22,7 @@ What about PCI?
 
 > [We've got it!](https://github.com/opencontrol/compliance-masonry/blob/6c9a3ff81710dedb816ccb7d9edd1a50e84ce015/fixtures/standards/PCI-DSS-MAY-2015.yaml)
 
-What about FedRAMP High?
 
-> Coming soon.
-
-What about HIPAA?
-
-> Coming soon.
-
-What about ICD-503?
-
-> No current plans - join the project and contribute!
-
-What about SOX?
-
-> No current plans - join the project and contribute!
 
 ## Why?
 
@@ -65,14 +51,11 @@ Why didn't you use XSLT?
 
 > We do! Often `.xslt` files are used up-stream, and imported.
 
-How do I get started using this?
 
-> We need to write a "getting started" tutorial. As a quick bootstrap, use the
-tutorial on the Concourse.ci website, and then checkout the example pipeline.
 
 ## Who?
 
-Who came up with this mess?
+Who came up with this concept?
 
 > The ideas of continuous authorization have been around for a long time. The term
 'OpenControl' was coined by Joshua McKenty, and first used in [a keynote presentation
@@ -80,3 +63,12 @@ at All Things Open 2015](https://speakerdeck.com/joshuamckenty/all-things-open-o
 The presentation includes some history, and explicit thanks to key originators at
 both 18F and Pivotal, as well as the creators of Cloud Audit. Special thanks goes
 to Diego Lapiduz and Noah Kunin.
+
+# OpenControl: Community Questions
+
+I have two clients each with an ATO and tus an SSP. It's reasonably straightforward to pull each family of controls into separate .md files in GitHub (well, I'm using GitLab now). The next step is to convert the controls into OC YAML Components, but this is not 1:1. Does a suggested mapping exist?
+
+I understand that each site will have its differences, but there is likely to be a fair amount of commonality. If the process can be reduced to a script that handles 90% of the controls and a process for massaging the 20% that didn't "fit" correctly, I believe this may help facilitate adoption.
+
+>Components will likely correspond to components of your software stack, such as the underlying infrastructure, the web framework, the database, etc. We recommend organizing this way, rather than by component family.
+Therefore, the mapping exists from those components to each of the relevant controls, rather than the other way around. That being said, given a list of components, you could certainly produce the reverse. For example, the Amazon S3 component takes care of controls X, Y, and Z. You could also potentially make components that correspond to certain general types of applications, such as a static site or a traditional three-tier architecture. Perhaps in your cases, these could get even more specific.
