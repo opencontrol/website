@@ -16,11 +16,11 @@ Always respect a designated moderator.
 
 ## Stay on target topic
 
-No matter how many TIE fighters are at your back, stay on the target topic of each Slack channel, GitHub issue, etc.
+We highly encourage to stay on the target topic of each Slack channel, GitHub issue, etc. This will help keep focus, efficiency and readability. 
 
 ## Encourage participation
 
-Be biased toward conversation and participation. Be comfortable asking questions and providing answers.
+Say things, ask questions and respond! The more participation, the better. 
 
 ## Appropriate, minimal personal/business promotion
 
