@@ -1,7 +1,7 @@
 ---
 ---
 
-# OpenControl: Questions
+# OpenControl: High Level Questions
 
 ## What?
 
@@ -22,21 +22,7 @@ What about PCI?
 
 > [We've got it!](https://github.com/opencontrol/compliance-masonry/blob/6c9a3ff81710dedb816ccb7d9edd1a50e84ce015/fixtures/standards/PCI-DSS-MAY-2015.yaml)
 
-What about FedRAMP High?
 
-> Coming soon.
-
-What about HIPAA?
-
-> Coming soon.
-
-What about ICD-503?
-
-> No current plans - join the project and contribute!
-
-What about SOX?
-
-> No current plans - join the project and contribute!
 
 ## Why?
 
@@ -65,14 +51,11 @@ Why didn't you use XSLT?
 
 > We do! Often `.xslt` files are used up-stream, and imported.
 
-How do I get started using this?
 
-> We need to write a "getting started" tutorial. As a quick bootstrap, use the
-tutorial on the Concourse.ci website, and then checkout the example pipeline.
 
 ## Who?
 
-Who came up with this mess?
+Who came up with this concept?
 
 > The ideas of continuous authorization have been around for a long time. The term
 'OpenControl' was coined by Joshua McKenty, and first used in [a keynote presentation
@@ -80,3 +63,31 @@ at All Things Open 2015](https://speakerdeck.com/joshuamckenty/all-things-open-o
 The presentation includes some history, and explicit thanks to key originators at
 both 18F and Pivotal, as well as the creators of Cloud Audit. Special thanks goes
 to Diego Lapiduz and Noah Kunin.
+
+# OpenControl: Community Questions
+
+I have two clients each with an ATO and tus an SSP. It's reasonably straightforward to pull each family of controls into separate .md files in GitHub (well, I'm using GitLab now). The next step is to convert the controls into OC YAML Components, but this is not 1:1. Does a suggested mapping exist?
+
+I understand that each site will have its differences, but there is likely to be a fair amount of commonality. If the process can be reduced to a script that handles 90% of the controls and a process for massaging the 20% that didn't "fit" correctly, I believe this may help facilitate adoption.
+
+>Components will likely correspond to components of your software stack, such as the underlying infrastructure, the web framework, the database, etc. We recommend organizing this way, rather than by component family.
+Therefore, the mapping exists from those components to each of the relevant controls, rather than the other way around. That being said, given a list of components, you could certainly produce the reverse. For example, the Amazon S3 component takes care of controls X, Y, and Z. You could also potentially make components that correspond to certain general types of applications, such as a static site or a traditional three-tier architecture. Perhaps in your cases, these could get even more specific.
+
+Only a few (<20) controls are specified in the AWS opencontrols git:
+https://github.com/opencontrol/aws-compliance
+
+For FedRAMP-high we need all 421 controls implemented per the FedRAMP spreadsheet:
+https://www.fedramp.gov/assets/resources/documents/FedRAMP_Security_Controls_Baseline.xlsx
+
+Is it possible to write a script to auto-populate the AWS opencontrol files with the appropriate controls from the FedRAMP-high spreadsheet?
+
+>A couple of clarifications:
+
+> - The FedRAMP baselines would be represented as an [OpenControl Certification](https://github.com/opencontrol/schemas#certifications).
+> - The AWS implementations of those controls would be represented as a set of [OpenControl Components](https://github.com/opencontrol/schemas#components), as seen in [that repository](https://github.com/opencontrol/aws-compliance).
+
+> There used to be a repository for the former, but it was deleted since it wasn't being maintained. I think it would be relatively straightforward to write a script to create OpenControl Certification YAML files from the spreadsheet you linked above. See also: using them from OSCAL.
+
+> - [FedRAMP baselines in OSCAL](https://github.com/usnistgov/OSCAL/tree/master/content/fedramp.gov)
+> - [Using OSCAL with Compliance Masonry](https://github.com/opencontrol/compliance-masonry/issues/343)
+> - Re: AWS control implementations, see [opencontrol/aws-compliance#5](https://github.com/opencontrol/aws-compliance/issues/5).
