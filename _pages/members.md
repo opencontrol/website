@@ -48,6 +48,9 @@ ___
 ### GovReady BPC
 #### [http://www.govready.com](http://www.govready.com)
 
+### SHE BASH LLC.
+#### [https://shebash.io](https://shebash.io)
+
 
 ## Operator Members
 ___
