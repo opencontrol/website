@@ -23,9 +23,11 @@ ___
 
 > This data adheres to the OpenControl schema for building compliance documentation and can be used to support your own authority to operate (ATO) review process. The system security plan (SSP) documentation that can be generated from this content can be used to assist your organization in authorizing Docker Enterprise Edition on both on-premises/private cloud infrastructures and in public cloud providers.
 
-___
-Are you using OpenControl? [submit a pull request](https://github.com/opencontrol/opencontrol.github.io/compare) to this document and add yourself.
-
 ### Redhat
 >ssCurrent plan is to incrementally go through the Red Hat product
 portfolio over the next year, releasing OpenControl-based SSPs for FISMA High across our platform, middleware, storage, identity management, and middleware portfolios.
+
+___
+Are you using OpenControl? [submit a pull request](https://github.com/opencontrol/opencontrol.github.io/compare) to this document and add yourself.
+
+
